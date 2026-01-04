@@ -1,0 +1,14 @@
+C:\Users\wikto\source\repos\Projekt_Programowanie_Obiektowe_71317\bin\Debug\net10.0\Projekt_Programowanie_Obiektowe_71317.exe
+C:\Users\wikto\source\repos\Projekt_Programowanie_Obiektowe_71317\bin\Debug\net10.0\Projekt_Programowanie_Obiektowe_71317.deps.json
+C:\Users\wikto\source\repos\Projekt_Programowanie_Obiektowe_71317\bin\Debug\net10.0\Projekt_Programowanie_Obiektowe_71317.runtimeconfig.json
+C:\Users\wikto\source\repos\Projekt_Programowanie_Obiektowe_71317\bin\Debug\net10.0\Projekt_Programowanie_Obiektowe_71317.dll
+C:\Users\wikto\source\repos\Projekt_Programowanie_Obiektowe_71317\bin\Debug\net10.0\Projekt_Programowanie_Obiektowe_71317.pdb
+C:\Users\wikto\source\repos\Projekt_Programowanie_Obiektowe_71317\obj\Debug\net10.0\Projekt_Programowanie_Obiektowe_71317.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wikto\source\repos\Projekt_Programowanie_Obiektowe_71317\obj\Debug\net10.0\Projekt_Programowanie_Obiektowe_71317.AssemblyInfoInputs.cache
+C:\Users\wikto\source\repos\Projekt_Programowanie_Obiektowe_71317\obj\Debug\net10.0\Projekt_Programowanie_Obiektowe_71317.AssemblyInfo.cs
+C:\Users\wikto\source\repos\Projekt_Programowanie_Obiektowe_71317\obj\Debug\net10.0\Projekt_Programowanie_Obiektowe_71317.csproj.CoreCompileInputs.cache
+C:\Users\wikto\source\repos\Projekt_Programowanie_Obiektowe_71317\obj\Debug\net10.0\Projekt_Programowanie_Obiektowe_71317.dll
+C:\Users\wikto\source\repos\Projekt_Programowanie_Obiektowe_71317\obj\Debug\net10.0\refint\Projekt_Programowanie_Obiektowe_71317.dll
+C:\Users\wikto\source\repos\Projekt_Programowanie_Obiektowe_71317\obj\Debug\net10.0\Projekt_Programowanie_Obiektowe_71317.pdb
+C:\Users\wikto\source\repos\Projekt_Programowanie_Obiektowe_71317\obj\Debug\net10.0\Projekt_Programowanie_Obiektowe_71317.genruntimeconfig.cache
+C:\Users\wikto\source\repos\Projekt_Programowanie_Obiektowe_71317\obj\Debug\net10.0\ref\Projekt_Programowanie_Obiektowe_71317.dll

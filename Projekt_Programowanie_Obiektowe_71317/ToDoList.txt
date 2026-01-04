@@ -1,0 +1,53 @@
+﻿Do klasy vehicle walidacja nr rejestracyjnego oraz stanu licznika (licznik nie może być ujemny i nie może się cofać).
+
+Do klasy driver walidacja numeru PESEL oraz numeru prawa jazdy (PESEL musi mieć 11 cyfr, prawo jazdy musi mieć określony format, np. dwie litery i sześć cyfr).
+
+Do klasy Asset walidacja nazwy (nie może być pusta i nie może przekraczać 100 znaków).
+private string _name;
+
+        public string Name
+        {
+            get => _name;
+            set
+            {
+                // 1. Sprawdzamy czy nie jest puste
+                if (string.IsNullOrWhiteSpace(value))
+                {
+                    throw new ArgumentException("Imię nie może być puste!");
+                }
+
+                // 2. Sprawdzamy długość
+                if (value.Length < 2)
+                {
+                    throw new ArgumentException("Imię jest za krótkie!");
+                }
+
+                /*
+                   Przez to że z tej klasy dziedziczą inne klasy, np Vehicle a ono może mieć w nazwie cyfry,
+                // 3. Sprawdzamy czy nie zawiera cyfr
+                if (value.Any(char.IsDigit))
+                {
+                    throw new ArgumentException("Imię nie może zawierać cyfr!");
+                }
+                */
+
+                // Jeśli wszystko OK, przypisujemy (z dużej litery dla porządku)
+                _name = char.ToUpper(value[0]) + value.Substring(1).ToLower();
+            }
+        }
+
+Do klasy Trailer walidacja numeru rejestracyjnego (ten sam format co w Vehicle) oraz pojemności.
+
+Do klasy driver walidacja numeru PESEL (11 cyfr) oraz numeru prawa jazdy (określony format, np. dwie litery i sześć cyfr).
+
+Do klasy Cargo walidacja wagi (nie może być ujemna lub zerowa) oraz wymagań transportowych (np. temperatura w określonym zakresie).
+
+
+
+
+
+
+
+
+
+
