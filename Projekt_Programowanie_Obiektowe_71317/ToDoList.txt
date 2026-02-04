@@ -1,4 +1,6 @@
-﻿Do klasy vehicle walidacja nr rejestracyjnego oraz stanu licznika (licznik nie może być ujemny i nie może się cofać).
+﻿Pozamieniać nazwy prop w klasach
+
+Do klasy vehicle walidacja nr rejestracyjnego oraz stanu licznika (licznik nie może być ujemny i nie może się cofać).
 
 Do klasy driver walidacja numeru PESEL oraz numeru prawa jazdy (PESEL musi mieć 11 cyfr, prawo jazdy musi mieć określony format, np. dwie litery i sześć cyfr).
 

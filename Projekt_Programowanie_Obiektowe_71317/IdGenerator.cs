@@ -21,12 +21,14 @@ namespace Projekt_Programowanie_Obiektowe_71317
 
             if (lines.Length == 0) return 1; // Jeśli plik jest pusty, zwracamy 1 jako pierwsze Id
 
-            var maxId = lines
-                .Select(line => line.Split(';')[0]) // Id jest pierwszym elementem oddzielonym średnikiem
-                .Select(idStr => int.TryParse(idStr, out var id) ? id : 0) // Parsujemy Id, jeśli nie uda się, zwracamy 0
-                .Max(); // Znajdujemy maksymalne Id w pliku
+            // Id jest pierwszym elementem oddzielonym średnikiem | Parsujemy Id, jeśli nie uda się, zwracamy 0
+            var l = lines.Select(line => line.Split(';')[0]).Select(idStr => int.TryParse(idStr, out var id) ? id : 0);
+            // Znajdujemy maksymalne Id w pliku
+            int c = l.Max();
 
-            return maxId++; // Zwracamy następne Id
+            c++; // Zwiększamy maksymalne Id o 1, aby uzyskać następne dostępne Id
+
+            return c; 
         }
     }
 }
